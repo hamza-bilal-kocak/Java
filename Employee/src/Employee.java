@@ -32,12 +32,15 @@ public class Employee {
             return this.salary*0.15;
         }
     }
+
+
     public void toString(Employee worker){
+         double Total = worker.salary + worker.raiseSalary() + worker.bonusMethod() - worker.taxMethod();
          System.out.print("\n*********\n\n\nName = " + worker.name + "\nSalary = "
                 + worker.salary + "\nWork Hours = " + worker.workHours
                 + "\nHire Date = " + worker.hireYear + "\n\nTax = "
                  + worker.taxMethod() + "\nBonus = " + worker.bonusMethod()
-                 + "\nRaise of Salary = " + worker.raiseSalary() );
+                 + "\nRaise of Salary = " + worker.raiseSalary() + "\n////Total Salary//// = " + Total );
     }
 
 }
