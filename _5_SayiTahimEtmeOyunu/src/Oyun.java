@@ -21,14 +21,13 @@ public class Oyun {
                 if(hata){
                     System.out.println("Yanlış aralık malesef can : " + --can);
                     hata = false;
-                    continue;
                 }
                 else {
                     System.out.println("Yanlış aralıkta 2 den fazla sayı girmeniz yine" +
                             "canınızı düşürecektir.Dikkat edin!!!  ");
                     hata = true;
-                    continue;
                 }
+                continue;
             }
             tahminler[i++]=tahmin;
             if(tahmin!=Robsayi){
