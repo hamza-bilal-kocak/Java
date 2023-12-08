@@ -33,4 +33,9 @@ public class Calisan {
     public void setEposta(String eposta) {
         this.eposta = eposta;
     }
+
+    public static void listele (Calisan[] girisler){
+        for(Calisan gezer:girisler)
+            System.out.println(gezer.giris());
+    }
 }
