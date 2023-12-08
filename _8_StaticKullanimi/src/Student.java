@@ -2,8 +2,8 @@ public class Student {
     public String name ;
     public int id;
     public int point;
-    private static int counter=0;
-
+    public static int counter=0;
+    public final static double PI =3.14;
     Student(String name, int id, int point){
         this.id=id;
         this.name=name;

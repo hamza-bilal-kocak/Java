@@ -5,10 +5,8 @@ public class Main {
 
         Student s1 = new Student("Yusuf", 2110213001, 100);
         System.out.println(s1.name + " " + s1.id + " " +Student.HowMuch());
-        //Static olsada direkt class ismi ile classın instance değişkenlerine ulaşılamaz.
-        //Student.counter; = yanlış  ,,,
-        //Bu yüzden static bir metot oluşturup ordan classın instance değerlere ulaşmak mümkündür.
-        //Student.Howmuch();
+        //Static direkt class ismi ile classın instance değişkenlerine ulaşılabilir.
+        //Student.counter; = doğru  ,,,
         Student s2 = new Student("Hamza", 2110213029, 90);
         System.out.println(s2.name + " " + s2.id + " " +Student.HowMuch());
 
@@ -25,6 +23,9 @@ public class Main {
         // gerekiyor. verilere
         System.out.println("Genel Ortalama : " + Student.CalculateOverallAvg(a));
 
+        //System.out.println(s1.PI);..... PI class'ta static olarak tanımlandığından nesne
+        // ile çağıormak artık olmuyor.yanlış
+        System.out.println(Student.PI);// Doğrusu bu
 
     }
 }
