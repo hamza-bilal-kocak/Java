@@ -29,7 +29,7 @@ public class Main {
         // Ayrıca tek seferde farklı sınıflardan farklı giris çıktıları alınabiliyor
         Calisan[] girislistesi = {ak1,o1,m1};
         System.out.println();
-        // Tek bir çağırma ile yukarıda yaptığım bütün çıktıları çıkarabiliyoruz Output a bak ve anala :D
+        // Tek bir çağırma ile yukarıda yaptığım bütün çıktıları çıkarabiliyoruz Output a bak ve anala :D"
         Calisan.listele(girislistesi);
 
     }

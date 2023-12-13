@@ -10,6 +10,9 @@ public class Calisan {
         return this.adSoyad + " giriş yaptı";
     }
 
+    public String dersGiris(){
+        return this.adSoyad + " giriş yaptı";
+    }
     public String getAdSoyad() {
         return adSoyad;
     }
@@ -34,7 +37,6 @@ public class Calisan {
         this.eposta = eposta;
     }
 
-    //Çalısandan bir nesne üretmeden de listeği çağırabilmek için static tanımladık
     public static void listele (Calisan[] girisler){
         for(Calisan gezer:girisler)
             System.out.println(gezer.giris());

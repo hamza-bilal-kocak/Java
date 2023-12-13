@@ -5,17 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b11e2332-40cb-4bbe-9359-a3f187618d93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../_10_Kalitim/src/Akademisyen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_10_Kalitim/src/Asistan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_10_Kalitim/src/BilgiIslem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_10_Kalitim/src/Calisan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_10_Kalitim/src/GuvenlikGorevlisi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_10_Kalitim/src/Memurlar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_10_Kalitim/src/Ogretmen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_9_SiniflarArasiliskiler/src/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_9_SiniflarArasiliskiler/src/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_8_StaticKullanimi/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_8_StaticKullanimi/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_8_StaticKullanimi/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_8_StaticKullanimi/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/_12_Kalitim_Abstaction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/src/Akademisyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/src/Asistan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/src/BilgiIslem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/src/Calisan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/src/GuvenlikGorevlisi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/src/Memur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_Kalitim_Abstaction/src/Ogretmen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Main/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_11_Kalitim/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_11_Kalitim/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,15 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Hamza/Documents/GitHub/Java/_11_Kalitim2",
-    "onboarding.tips.debug.path": "C:/Users/Hamza/Documents/GitHub/Java/_10_Kalitim/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hamza/Documents/GitHub/Java/_11_Kalitim2&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Hamza/Documents/GitHub/Java/_10_Kalitim/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
