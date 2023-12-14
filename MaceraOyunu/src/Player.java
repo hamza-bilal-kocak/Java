@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
 public class Player {
-   private int damage,healthy,money;
+   private int damage,healthy,money,rHealthy;
    private String name,cName;
    private  Inventory inv;
 
    Scanner scanner = new Scanner(System.in);
     public Player(String name) {
         this.name = name;
+        this.inv = new Inventory();
     }
 
     public void selectCha(){
@@ -28,14 +29,15 @@ public class Player {
                 break;
         }
         System.out.println("Character is being created...");
-        System.out.println("\nKarakter: " + getcName() + "\nDamege: " + getDamage()
+        System.out.println("\nKarakter: " + getcName() + "\nDamage: " + getDamage()
                 + "\nHealty: " + getHealthy() + "\nMoney: " + getMoney());
     }
     public void ccT(String cN, int dmg, int hlty, int m){
-        this.cName= cN;
-        this.damage= dmg;
-        this.healthy= hlty;
-        this.money= m;
+        setcName(cN);
+        setDamage(dmg);
+        setHealthy(hlty);
+        setMoney(m);
+        setrHealthy(hlty);
     }
 
     public int chaMenu(){
@@ -98,4 +100,11 @@ public class Player {
     public void setInv(Inventory inv) {
         this.inv = inv;
     }
+    public void setrHealthy(int rHealthy){
+        this.rHealthy=rHealthy;
+    }
+    public int getrHealthy(){
+        return rHealthy;
+    }
+	    
 }

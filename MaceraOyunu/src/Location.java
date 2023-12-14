@@ -1,15 +1,28 @@
-public class Location {
-    Player player;
-    String name;
+import java.util.Scanner;
 
-    public Location(String name) {
+public abstract class Location {
+    protected Player player;
+    protected String name;
+    Scanner scan = new Scanner(System.in);
+
+    Location(Player player) {
+        this.player=player;
+    }
+
+    
+    // burada neden abstract yazdığımızı ve neden metotu ";" ile kapattığımızı anlamadım.
+    public abstract boolean getLoc();
+    
+    public Player getPlayer(){
+        return player;
+    }
+    public void setPlayer(Player player){
+        this.player = player;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
         this.name = name;
     }
-
-    public void Loc(){
-
-    }
-    private boolean getLoc(){
-        return false;
-    };
 }
