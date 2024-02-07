@@ -11,6 +11,7 @@ public class Player {
         this.inv = new Inventory();
     }
 
+
     public void selectCha(){
         System.out.println("Please select the character you want:");
 
@@ -19,7 +20,7 @@ public class Player {
                 ccT("Samuray",5,21,15);
                 break;
             case 2:
-                ccT("Okcu",7,18,20);
+                ccT("Okcu",7,18,100);
                 break;
             case 3:
                 ccT("Sovalye",8,24,5);
@@ -52,7 +53,13 @@ public class Player {
         }
         return chaId;
     }
+    public int getTotalDamage(){
+        return this.getDamage() + getInv().getDamage();
+    }
 
+    public int getTotalArmor(){
+        return this.getInv().getArmor();
+    }
     public int getDamage() {
         return damage;
     }

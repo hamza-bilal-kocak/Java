@@ -62,36 +62,43 @@ public class ToolStore extends NormalLoc {
     }
     public void buyArmor(int itemID){
         String aName= null;
-        int price=0,armor=0;
+        int price=0,avoid=0;
         switch (itemID){
             case 1:
-                armor=1;
+                avoid=1;
                 aName="Dear Armor";
-                price=5;
+                price=15;
                 break;
             case 2:
-                armor=3;
+                avoid=3;
                 aName="Wolf Armor";
-                price=5;
+                price=25;
                 break;
             case 3:
-                armor=5;
+                avoid=5;
                 aName="Bear Armor";
-                price=5;
+                price=40;
+                break;
+            case 4:
+                System.out.println("Exited");
                 break;
             default:
                 System.out.println("Invalid Transaction");
                 break;
         }
-        if(player.getMoney()>price){
-            player.getInv().setArmor(armor);
-            player.getInv().setaName(aName);
-            player.setMoney(player.getMoney()-price);
-            System.out.println(aName + "\nOld Damage Prevention : " + 0 + "\nNew Damage Prevention : " + player.getInv().getArmor());
+        if (itemID != 4 ) {
+            if (player.getMoney() > price) {
+                player.getInv().setArmor(avoid);
+                player.getInv().setaName(aName);
+                player.setMoney(player.getMoney() - price);
+                System.out.println(aName + "\nOld Damage Prevention : " + 0 + "\nNew Damage Prevention : " + player.getTotalArmor());
+                System.out.println("Remaining Money : " + player.getMoney());
+            }
+            else{
+                System.out.println("Insufficient balance...");
+            }
         }
-        else{
-            System.out.println("Insufficient balance...");
-        }
+
     }
     public void buyWepon(int itemID){
         String wName=null;
@@ -112,19 +119,25 @@ public class ToolStore extends NormalLoc {
                 wName="Rifle";
                 price=45;
                 break;
+            case 4:
+                System.out.println("Exited");
+                break;
             default:
                 System.out.println("Invalid Transaction");
                 break;
         }
-        if(player.getMoney()>price){
-            player.getInv().setDamage(damage);
-            player.getInv().setwName(wName);
-            player.setMoney(player.getMoney() - price);
-            System.out.println(wName + "\nOld damage : " + player.getDamage() + "\nNew damage : " + (player.getDamage() + player.getInv().getDamage()));
-
+        if (itemID != 4 ) {
+            if (player.getMoney() > price) {
+                player.getInv().setDamage(damage);
+                player.getInv().setwName(wName);
+                player.setMoney(player.getMoney() - price);
+                System.out.println(wName + "\nOld damage : " + player.getDamage() + "\nNew damage : " + player.getTotalDamage());
+                System.out.println("Remaining Money : " + player.getMoney());
+            }
+            else
+                System.out.println("Insufficient balance...");
         }
-        else
-            System.out.println("Insufficient balance...");
+
     }
 
 }
